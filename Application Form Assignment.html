@@ -1,0 +1,197 @@
+<html>
+<head>
+      	<meta charset="utf-8">
+	      <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Application Form</title>
+</head>
+
+<body leftmargin = "50px" bgcolor = "linen">
+<h1 align = "center"><font color = "gray" size = "6">SOULTRANE SCHOOL OF MUSIC</font></h1>
+<h3 align = "center"><font style = "verdana" color = "black" size = "5" >APPLICATION FORM</font></h3>
+    
+<form>
+<fieldset>
+	    <legend><b>Personal Details</b></legend>
+	    <table width = "100%" cellpadding = "10px">
+			<tr>
+				<td>Full name</td>
+				<td>
+					<select>
+						<option>--Title--</option>
+                        <option value = "Mr">Mr.</option>
+                        <option value = "Mrs">Ms.</option>
+                        <option value = "Miss">Miss.</option>
+                        <option value = "Others">Other.</option>
+				    </select>
+				</td>
+				<td>
+					<input type = "text" size = "20">
+				</td>
+					 
+			</tr>
+			<tr>
+				<td>Father's Name</td>
+				<td>
+					<select disabled>
+					<option value = "Mr">Mr.</option>
+				    </select>
+			    </td>
+			    <td><input type = "text" size = "20" name = "fathersName"></td>
+				<td>Mother's Name</td>
+				<td>
+					<select disabled>
+					<option value = "Mrs">Mrs.</option>
+				    </select>
+				</td>
+				<td><input type = "text" size = "20" name = "mothersName"></td>
+			</tr>
+			<tr>
+				<td>Gender</td>
+				<td>
+					<label>Male</label><input type = "radio" name = "Gender">
+					<label>Female</label><input type = "radio" name = "Gender">
+                              <label>Non-binary</label><input type = "radio" name = "Gender">
+					<label>Other</label><input type = "radio" name ="Gender">
+                        </td>
+				<td>
+					<label for = "dateOfBirth">Date Of Birth</label>
+				</td>
+				<td><input type = "date" name = "dateOfBirth"></td>
+			</tr>
+			<tr>
+				<td><label for = "MaritalStatus">Marital Status</label></td>
+				<td>
+                        <select>
+					<option>--select--</option>
+					<option value = "single">Single</option>
+					<option value = "married">Married</option>
+					<option value = "widowed">Widowed</option>
+					<option value = "divorced">Divorced</option>
+				</select></td>
+				<td><label for="religion">Religion</label></td>
+				<td>
+                           <select>
+                             <option>--select--</option>
+                             <option value = "hinduism">Hinduism</option> 
+                             <option value = "christian">Christianity</option> 
+                             <option value = "judaism">Judaism</option> 
+                             <option value = "islam">Islam</option>
+                             <option value = "buddhism">Buddhism</option>
+                             <option value = "folk">Folk Religions</option>
+                             <option value = "sikh">Sikhism</option>
+                             <option value = "none">No religion</option>
+                             <option value = "other">Other</option>
+                          </select>
+                       </td>
+			</tr>
+
+		</table>
+</fieldset><br>
+
+<fieldset>
+	<legend>Contact Details</legend>
+		<table width="100%" cellpadding="10px">
+			<tr>
+				<td><label for = "mobileNo">Mobile Number</label></td>
+				<td><input type = "tel" name = "mobileNumber"></td>
+				<td><label for = "email">Email Address</label></td>
+				<td><input type = "Email" name = "email"></td>
+			</tr>
+			<tr>
+				<td><label for = "address1">Address Line 1</label></td>
+				<td><input type = "text" name = "address1"></td>
+				<td><label for = "address2">Address Line 2</label></td>
+				<td><input type = "text" name = "address2"></td>
+			</tr>
+			<tr>
+				<td><label for = "country">Country</label></td>
+				<td><input type = "text" name="country"></td>
+				<td><label for="city">City</label></td>
+				<td><input type = "text" name = "city"></td>
+
+			</tr>
+	</table>
+
+</fieldset>
+
+<fieldset>
+	<legend>Qualifications</legend>
+		<table width="100%" cellpadding="10px">
+                  <tr>
+                  <td>In order to work as a teacher at Soultrane School of Music, you must have a diploma/degree in Music.</td>
+                  </tr> 
+                  
+			<tr>
+				<th>University</th>
+				<th>Year</th>
+				<th>Degree</th>
+				<th>Grade</th>
+			</tr>
+			<tr>
+				<td><input type = "text" name = "university" size = 110px"></td>
+                        <td><input type = "text" name ="yr"></td>
+                        <td><input type = "text" name = "degree"></td>
+                        <td><input type = "text" name = "grade"></td>
+			</tr>
+			<tr>
+
+				<td>Have you ever taught music before? </td>
+                        <td>If yes, for how many years have you taught? </td>
+                  </tr>
+                  <tr>
+				<td>
+					<label>Yes</label><input type = "radio" name = "experience">
+					<label>No</label><input type = "radio" name = "experience">
+                        </td>
+                        <td><input type="text" name="yrs_taught"></td>
+			</tr>
+			<tr>
+				<td>Do you play any instrument?(Vocal included). If yes, specify the instrument.</td>
+				<td><input type="text" name="instrument"></td>
+			</tr>
+		</table>
+</fieldset>
+
+<fieldset>
+	<legend>Knowledge</legend>
+		<table width="100%">
+			<tr>
+				<td><label for="Language">Do you teach Theoretical or Practical Music?</label></td>
+			</tr>
+			<tr>
+                     <td>
+					<label>Theory</label><input type = "radio" name = "teach">
+					<label>Practical</label><input type = "radio" name = "teach">
+                              <label>Both</label><input type = "radio" name = "teach">
+                     </td>
+			</tr>
+		</table>
+</fieldset>
+
+<fieldset>
+	<legend>Identification Details</legend>
+		<table>
+			<tr>
+				<td><label for="ID">Identification Number</label></td>
+				<td><input type="text" maxlength="8"></td>
+				<td><label for="tel">Phone Number</label></td>
+				<td><input type="text" maxlength="10"></td>
+			</tr>
+			<tr>
+				<td><label for="photoUpload">Upload Photo</label></td>
+				<td><input type="file" name="myfile" id="myfile"></td>
+				<td><label for="signatureUpload">Upload Signature</label></td>
+				<td><input type="file" name="myfile" id="myfile"></td>
+			</tr>
+		</table>
+</fieldset>
+
+	<br>
+	    <center>
+             <input type="submit" name="send" value="SUBMIT">
+             <input type="reset" name="back" value="BACK">
+        </center>
+<h3>For more information, contact us at <u>soultranemusic@gmail.com</u> or visit our website <u>www.soultraneschoolofmusic.co.ke</u></h3>
+ </form>
+</body>
+</html>
